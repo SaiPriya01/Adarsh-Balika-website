@@ -96,12 +96,12 @@
     color: var(--primary-color);
     text-align: left;
     font-size: 1.5rem;
-    margin: 1.5rem 0;
+    margin: 1.5rem 0rem;
 }
 .blog-text {
     color: var(--primary-color);
     line-height: 1.6rem;
-    margin-top: 1.5rem;
+    margin-top: 1.5rem 0rem;
 }
 .hero .small{
     text-align: center;
