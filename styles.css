@@ -3,8 +3,8 @@
 
 :root{
     --primary-color:#112240;
-    --secondary-color:#00FFB7;
-    --mild-color: #65e2be;
+    --secondary-color:#00FF7F;
+    --mild-color: #00FA9A;
     --bcg-color:#b3ffe954;
 }
 *{
@@ -25,6 +25,7 @@
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 2rem;
+    color: aliceblue;
 }
 
 .navigation .nav-pills {
@@ -53,6 +54,10 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
+}
+.navigation .link:hover{
+    background-color: #ffffff18;
+    transition: 0.5s ease all;
 }
 .list-item-inline {
     padding: 0rem 2rem;
@@ -86,6 +91,22 @@
     line-height: 1.5rem;
     max-width: 900px;
     margin: auto;
+}
+.blog-intro {
+    color: var(--primary-color);
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+.blog-text {
+    color: var(--primary-color);
+    line-height: 1.6rem;
+    margin-top: 1.5rem;
+}
+.hero .small{
+    text-align: center;
+    margin: 0rem;
+    color: var(--secondary-color);
 }
 .container-center {
     max-width: 900px;
