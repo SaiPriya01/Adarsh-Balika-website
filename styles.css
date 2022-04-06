@@ -121,6 +121,7 @@
 .section p{
     line-height: 1.5rem;
     margin-top: 1.5rem;
+    padding: 1rem 0rem;
 }
 .section {
     color: var(--primary-color);
