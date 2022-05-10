@@ -3,8 +3,8 @@
 
 :root{
     --primary-color:#112240;
-    --secondary-color:#00FF7F;
-    --mild-color: #00FA9A;
+    --secondary-color:#DAAD86;
+    --mild-color: #FBEEC1;
     --bcg-color:#b3ffe954;
 }
 *{
@@ -116,7 +116,7 @@
     padding: 1rem;
 }
 .ow {
-    background-color: var(--secondary-color);
+    background-color: var(--mild-color);
 }
 .section p{
     line-height: 1.5rem;
@@ -150,13 +150,13 @@
     background-color: var(--primary-color);
     /* margin: 1rem; */
     border-radius: 0.5rem;
-    color: var(--secondary-color);
+    color: var(--mild-color);
     box-shadow: 0 12px 12px -11px #112240;
 }
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--secondary-color);
     box-shadow: 0px 12px 12px -11px #112240;
 }
 
