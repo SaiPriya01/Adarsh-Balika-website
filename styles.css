@@ -166,23 +166,19 @@
     border-top-left-radius: 1rem;
     color: white;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 .footer .link {
     color: white;
     text-decoration: none;
     margin-top: 2rem;
 }
-/* .link:hover{
-    background-color: #ffffff18;
-    transition: 0.5s ease all;
-} */
 .footer ul {
     padding-inline-start: 0px;
 }
 .footer .footer-header{
      font-weight: bold;
-    /*font-size: large; */
     text-align: center;
     font-size: 1.5rem;
     color: var(--secondary-color);
